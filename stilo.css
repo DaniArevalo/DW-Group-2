@@ -1,0 +1,55 @@
+body {
+    background-image: url(imag/fondo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-custom {
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Borde blanco suave */
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 20px; 
+    font-weight: bold;
+    color: #fff; 
+}
+
+.btn-custom {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    border: none; 
+}
+
+.btn-primary-custom {
+    background-color: #060606; 
+}
+
+.btn-secondary-custom {
+    background-color: #040404; 
+}
+
+.btn-primary-custom:hover {
+    background-color: #757575; 
+}
+
+.btn-secondary-custom:hover {
+    background-color: #7f7f7f; 
+}
+
+.btn-custom:active {
+    transform: scale(0.95); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); 
+}
